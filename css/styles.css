@@ -682,3 +682,24 @@ address{
     display: flex;
 
 }
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 112px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid var(--white-color);
+    border-radius: 4px;
+}
+
+
+.modal-label{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-button{
+    border-radius: 4pc;
+}
