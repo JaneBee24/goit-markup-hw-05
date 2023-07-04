@@ -367,13 +367,15 @@
         </li>
       </ul>
 
-      <form >
+      <div class="footer-form-div">
+      <p class="footer-form-p">Subscribe</p>
+      <form class="footer-form">
         <label class="footer-form">
-          Subscribe
-          <input type="text" name="subscribe" placeholder="E-mail"/>
+          <input type="email" name="subscribe" placeholder="E-mail" class="footer-form-input"/>
         </label>
-        <button type="submit">Subscribe</button>
+        <button type="submit" class="footer-form-button">Subscribe<svg  width="24" height="24" class="button-svg"><use href="./images/icons.svg#Frame-3"></use></svg></button>
       </form>
+    </div>
 
     </div>
   </div>
@@ -387,9 +389,12 @@
         </svg>
       </button>
       
+
+      <div>
+        <p class="modal-text">Name</p>
+        
       <form class="modal-form">
         <label class="modal-label">
-          Name
           <input type="text" name="modal-name" class="modal-input"/>
         </label>
 
@@ -410,6 +415,9 @@
 
         <button type="submit" class="modal-button">Send</button>
       </form>
+    </div>
+
+
   </div>
 </div>
 <script src="./js/modal.js"></script>
