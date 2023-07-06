@@ -810,6 +810,9 @@ address{
 
 .modal-form-div-input:focus-within .modal-svg {
     fill: var(--blue-color);
+}
+
+.modal-form-div-input:focus-within{
     border-color: var(--blue-color);
 }
 
