@@ -26,8 +26,18 @@ h1, h2, h3, h4, h5, p{
     color: var(--second-blue-color);
 }
 
-.choose-link::before, .choose-link::after{
-    color: var(--second-blue-color);
+
+
+.choose-link::after{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--second-blue-color);
+    border-radius: 2px;
 }
 
 img{
