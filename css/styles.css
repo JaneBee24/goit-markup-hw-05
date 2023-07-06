@@ -812,7 +812,8 @@ address{
     fill: var(--blue-color);
 }
 
-.modal-form-div-input:focus-within{
+
+.modal-input:focus{
     border-color: var(--blue-color);
 }
 
