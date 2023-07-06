@@ -700,9 +700,6 @@ address{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding-top: 112px;
-    padding-left: 24px;
-    padding-right: 24px;
     border: 1px solid var(--white-color);
     border-radius: 4px;
 }
@@ -788,7 +785,7 @@ address{
 }
 
 .modal-form-div{
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 
 }
 
@@ -812,6 +809,10 @@ address{
     fill: var(--blue-color);
 }
 
+.modal-form-div-input:hover .modal-svg,
+.modal-form-div-input:focus .modal-svg {
+    fill: var(--blue-color);
+}
 
 .modal-svg{
     position: absolute;
@@ -872,7 +873,7 @@ address{
     color: var(--blue-color);
 }
 
-.modal-form-input:checked{
+.modal-form-input:checked +.modal-checkbox-label .modal-checkbox-span{
     background-color:var(--second-blue-color);
     border: none;
     fill: var(--second-white-color);
